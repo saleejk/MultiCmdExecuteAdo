@@ -7,7 +7,7 @@ class Program
     {
         Program program=new Program();
         program.MultiCommandExecuteWithParameter("student", "teacher");
-     
+        program.MultiCommandExecute();
     }
     public void MultiCommandExecuteWithParameter(string table1,string table2)
     {
@@ -41,13 +41,6 @@ class Program
             
         }
     }
-
-
-
-
-
-
-
     public void MultiCommandExecute()
     {
         string connectionString = "data source= SALEEJK; database= master;integrated security=SSPI;TrustServerCertificate=True";
